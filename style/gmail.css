@@ -8,14 +8,15 @@ body {
 	background-color: aliceblue;
 }
 
-.top_nav {
+.topNav {
 	display: flex;
 	align-items: center;
-	//justify-content: space-between;
+	justify-content: space-between;
 	cursor: pointer;
+	padding:10px;
 }
 
-.left_nav img {
+.leftNav img {
 	object-fit: contain;
 	height: 40px;
 	margin-left: 5px;
@@ -23,40 +24,41 @@ body {
 
 }
 
-.left_nav {
+.leftNav {
 	display: flex;
 	align-items: center;
-	padding-left: 15px;
+	//padding-left: 15px;
 
 }
 
-.mid_nav {
+.midNav {
 	background-color: white;
 	padding: 10px;
 	margin-top: 10px;
 	border-radius: 50px;
 	width: 40%;
-
+	position: absolute;
+    	margin-left: 188px;
 }
 
-.mid_nav input {
+.midNav input {
 	border: none;
 	outline: none;
-	width: 100%;
+	width: 90%;
 	background-color: transparent;
 	margin-left: 5px;
-	font-size: 16px;
-	padding-top: 5px;
-	
+	font-size: 16px;	
 }
 
-.mid_nav .material-symbols-outlined {
+.midNav .material-symbols-outlined {
 	font-size: 20px;
 	margin-bottom: 2px;
 
 }
 .lensInput{
 	display:flex;
+	width:94%;
+	align-items:center;
 }
 .searchForm{
 	display:flex;
@@ -65,33 +67,33 @@ body {
 .topFirstNav{
 	display:flex;
 }
-.mid_nav .lens {
+.midNav .lens {
 	height: 18px;
     	width: 20px;
 	padding: 0.25rem;
 	border-radius: 50%;
 }
 
-.mid_nav .lens:hover {
+.midNav .lens:hover {
 	background-color: rgba(0, 0, 0, 0.15);
 }
 
-.last_nav{
+.lastNav{
 	padding-top:14px;
 }
-.last_nav span {
+.lastNav span {
 	padding-left: 10px;
 
 }
 
-.last_nav .material-symbols-outlined {
+.lastNav .material-symbols-outlined {
 	height: 1em;
 	width: 1em;
 	padding: 0.25em;
 	border-radius: 50%;
 }
 
-.last_nav .material-symbols-outlined:hover {
+.lastNav .material-symbols-outlined:hover {
 	background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -122,62 +124,62 @@ body {
 	margin-right: 5px;
 }
 
-.menu_list_active {
+.menuListActive {
 	display: flex;
 	flex-direction: row;
 	padding: 0 20px;
 	cursor: pointer;
 }
 
-.menu_list_active .material-symbols-outlined {
+.menuListActive .material-symbols-outlined {
 	padding: 5px;
 	font-size: medium;
 }
 
-.menu_list_active p {
+.menuListActive p {
 	padding-top: 8px;
 	font-size: 14px;
 
 }
 
-.menu_list_active .material-symbols-outlined {
+.menuListActive .material-symbols-outlined {
 	padding: 8px;
 }
 
-.menu_list {
+.menuList {
 	display: flex;
 	flex-direction: row;
 	padding: 0 20px;
 	cursor: pointer;
 }
 
-.menu_list .material-symbols-outlined {
+.menuList .material-symbols-outlined {
 	padding: 8px;
 	font-size: medium;
 }
 
-.menu_list p {
+.menuList p {
 	padding-top: 8px;
 	font-size: 14px;
 
 }
 
-.menu_list_active,
-.menu_list_active p,
-.menu_list_active {
+.menuListActive,
+.menuListActive p,
+.menuListActive {
 	background-color: #afc7ee;
 	border-radius: 20px;
 
 }
 
-.menu_list:hover,
-.menu_list:hover p,
-.menu_list:hover .material-symbols-outlined {
+.menuList:hover,
+.menuList:hover p,
+.menuList:hover .material-symbols-outlined {
 	background-color: #c4c7c5;
 	border-radius: 20px;
 }
 
-.menu_last_item {
+.menuLastItem {
 	margin-top: 40px;
 
 }
@@ -196,7 +198,7 @@ body {
 	font-size: 20px;
 }
 
-.body_section {
+.bodySection {
 	display: flex;
 }
 
@@ -205,81 +207,81 @@ body {
 	overflow: hidden;
 }
 
-.top_icon_set {
+.topIconSet {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1x solid whitesmoke;
 	padding-top: 4px;
 }
 
-.top_icon_set {
+.topIconSet {
 	cursor: pointer;
 	margin-top: 10px;
 }
 
-.left_icon_set {
+.leftIconSet {
 	display: flex;
 	align-items: center;
 }
 
-.right_icon_set {
+.rightIconSet {
 	display: flex;
 	align-items: center;
 	padding-right: 15px;
 }
 
-#chevron_left {
+#chevronLeft {
 	color: #cfcfd1;
 }
 
-.left_icon_set .material-symbols-outlined {
+.leftIconSet .material-symbols-outlined {
 	font-size: large;
 	margin-left: 15px;
 }
 
-.left_icon_set .chk_box {
+.leftIconSet .chkBox {
 	height: 1em;
 	width: 1em;
 	padding: 0.25em;
 }
 
-.left_icon_set .chk_box:hover {
+.leftIconSet .chkBox:hover {
 	background-color: rgba(0, 0, 0, 0.15);
 }
 
-.left_icon_set .ar_dwn {
+.leftIconSet .arDwn {
 	height: 1em;
 	width: 1em;
 	padding: 0.25em;
 }
 
-.left_icon_set .ar_dwn:hover {
+.leftIconSet .arDwn:hover {
 	background-color: rgba(0, 0, 0, 0.15);
 }
 
-.left_icon_set .refresh {
-	height: 1em;
-	width: 1em;
-	padding: 0.25em;
-	border-radius: 50%;
-}
-
-.left_icon_set .refresh:hover {
-	background-color: rgba(0, 0, 0, 0.15);
-}
-
-.left_icon_set .dots {
+.leftIconSet .refresh {
 	height: 1em;
 	width: 1em;
 	padding: 0.25em;
 	border-radius: 50%;
 }
 
-.left_icon_set .dots:hover {
+.leftIconSet .refresh:hover {
 	background-color: rgba(0, 0, 0, 0.15);
 }
 
-.right_icon_set .material-symbols-outlined {
+.leftIconSet .dots {
+	height: 1em;
+	width: 1em;
+	padding: 0.25em;
+	border-radius: 50%;
+}
+
+.leftIconSet .dots:hover {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.rightIconSet .material-symbols-outlined {
 	font-size: large;
 	margin-left: 10px;
 	height: 1em;
@@ -288,7 +290,7 @@ body {
 	border-radius: 50%;
 }
 
-.right_icon_set .material-symbols-outlined:hover {
+.rightIconSet .material-symbols-outlined:hover {
 	background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -296,7 +298,7 @@ body {
 	font-size: 12px;
 }
 
-.primary_head {
+.primaryHead {
 	display: flex;
 	align-items: center;
 	padding-top: 10px;
@@ -305,11 +307,11 @@ body {
 	width: 200px;
 }
 
-.pri_pro_soc {
+.priProSoc {
 	display: flex;
 }
 
-.content_section {
+.contentSection {
 
 	border-radius: 25px 25px 0 0;
 	background-color: white;
@@ -318,41 +320,41 @@ body {
 	width: 100%;
 }
 
-.primary_head_active {
+.primaryHeadActive {
 	color: blue;
 	border-bottom: 3px solid blue;
 	margin-left: 2px;
 }
 
-.primary_head:hover {
+.primaryHead:hover {
 	background-color: whitesmoke;
 }
 
-.primary_head h4 {
+.primaryHead h4 {
 	font-size: 14px;
 	margin-left: 15px;
 }
 
-.user_mail_section{
+.userMailSection{
 	background-color: #F2F6FC;
 	height:450px;
 	overflow:scroll;
 }
 
-.user_mail_icons {
+.userMailIcons {
 	display: flex;
 	align-items: center;
 	margin-left: 5px;
 }
 
-.user_mail_icons .material-symbols-outlined {
+.userMailIcons .material-symbols-outlined {
 	margin: 5px;
 	font-size: large;
 	color: #cfcfd1;
 
 }
 
-.user_mail_icons .material-symbols-outlined {
+.userMailIcons .material-symbols-outlined {
 
 	height: 1em;
 	width: 1em;
@@ -360,12 +362,12 @@ body {
 	border-radius: 50%;
 }
 
-.user_mail_icons .material-symbols-outlined:hover {
+.userMailIcons .material-symbols-outlined:hover {
 	background-color: rgba(0, 0, 0, 0.15);
 	color: black;
 }
 
-.user_mail_row {
+.userMailRow {
 	display: flex;
 	align-items: center;
 	height: 50px;
@@ -373,12 +375,12 @@ body {
 	border-bottom: 1px solid #dddd;
 }
 
-.user_mail_row:hover {
+.userMailRow:hover {
 	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.24);
 	border-bottom: 1px solid #dddd;
 }
 
-.user_mail_description {
+.userMailDescription {
 	display: flex;
 	flex: 0.9;
 	align-items: center;
@@ -386,7 +388,7 @@ body {
 
 }
 
-.user_mail_description .desc {
+.userMailDescription .desc {
 
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -395,7 +397,7 @@ body {
 
 }
 
-.sender_name {
+.senderName {
 	font-size: 14px;
 	color: #202124;
 	flex: 0.15;
@@ -410,19 +412,19 @@ body {
 	font-size: 12px;
 	color: #5F6368;
 }
-.last_menubar{
+.lastMenubar{
 	display:flex;
 	flex-direction:column;
 	margin-top:10px;
 	padding:10px;
 }
-.side_icons{
+.sideIcons{
 	margin-bottom:20px;	
 	cursor:pointer;
 	display:flex;
 	align-items:center;
 }
-.side_icons img{
+.sideIcons img{
 	width:20px;
 	padding-left:10px;	
 	background-position:center;
@@ -431,44 +433,228 @@ body {
 	padding:10px;
 	
 }
-.border_style{
+.borderStyle{
  	border-top:1px solid #dadce0;
 }
-.side_icons{
+.sideIcons{
 	border-radius:50%;
 	height:40px;
 	width:40px;
 }
-.side_icons:hover{
+.sideIcons:hover{
 	background-color: rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (max-width:1024px){
-	.last_menubar{
+	.lastMenubar{
 		display:none;
 	}
-	.last_nav{
+	.lastNav{
 		display:flex;
-		padding-left:10px;
+		padding-left:92%;
 	}
-	.mid_nav{
+	.midNav{
 		margin-right:0px;
-		width:53%;
-		margin-left:47px;
+		width:58%;
+		margin-left:18%;
 	}
-	.mid_nav input{
-		margin-right:0px;
+	.midNav input{
+		width:80%;
 		
 	}
-	.top_icon_set{
-		display:none;	
-	}
-	.top_nav{
+	
+	.topNav{
 		display: flex;
     		justify-content:unset;
 		//width:119%;
 	}
-	.primary_head{
+	.primaryHead{
 		width:114px;
+	}
+}
+@media screen and (max-width:768px){
+	.lastMenubar{
+		display:none;
+	}
+	.lastNav{
+		display:flex;
+		padding-left:99%;
+	}
+	.midNav{
+		margin-right:0px;
+		width:63%;
+		margin-left:25%;
+	}
+	.midNav input{
+		width:80%;
+	}
+	
+	.topNav{
+		display: flex;
+    		justify-content:unset;
+	}
+	.topIconSet {
+		display:none;
+	}
+	.primaryHead{
+		width:114px;
+	}
+	.userMailDescription .desc {
+		max-width:561px;
+	}
+	.userMailSection {
+    		overflow: unset;
+	}
+	.date {
+    		margin-right: 14px;
+    		margin-left: 6px;
+	}
+	.lastNav .threeIcon{
+		display:none;
+	}
+}
+@media screen and (max-width:425px){
+	.lastMenubar{
+		display:none;
+	}
+	img{
+		display:none;
+	}
+	
+	.topNav{
+		display: flex;
+    		justify-content:unset;
+	}
+	.topIconSet {
+		display:none;
+	}
+	.sidebar{
+		display:none;
+	}
+	.priProSoc{
+		display:none;
+	}
+	
+	.userMailSection {
+    		overflow: unset;
+	}
+	.lastNav .fourIcon{
+		display:none;
+	}
+	.userMailDescription .desc {
+		max-width:287px;
+	}
+	.midNav{
+		margin-left:12%;
+	}
+	.lastNav{
+		display:flex;
+		padding-left:84%;
+	}
+	.senderName{
+		display:none;
+	}
+	.date{
+		margin-right:0px;
+		margin-left:14px;
+	}
+}
+@media screen and (max-width:375px){
+	.lastMenubar{
+		display:none;
+	}
+	img{
+		display:none;
+	}
+	
+	.topNav{
+		display: flex;
+    		justify-content:unset;
+	}
+	.topIconSet {
+		display:none;
+	}
+	.sidebar{
+		display:none;
+	}
+	.priProSoc{
+		display:none;
+	}
+	
+	.userMailSection {
+    		overflow: unset;
+	}
+	.lastNav .fourIcon{
+		display:none;
+	}
+	.userMailDescription .desc {
+		max-width: 277px;
+	}
+	.midNav{
+		margin-left: 14%;
+	}
+	.lastNav{
+		display:flex;
+		padding-left: 84%;
+	}
+	.senderName{
+		display:none;
+	}
+	.date{
+		
+	}
+	.userMailIcons .checkBoxIcon{
+		display:none;
+	}
+}
+@media screen and (max-width:320px){
+	.lastMenubar{
+		display:none;
+	}
+	img{
+		display:none;
+	}
+	
+	.topNav{
+		display: flex;
+    		justify-content:unset;
+	}
+	.topIconSet {
+		display:none;
+	}
+	.sidebar{
+		display:none;
+	}
+	.priProSoc{
+		display:none;
+	}
+	
+	.userMailSection {
+    		overflow: unset;
+	}
+	.lastNav .fourIcon{
+		display:none;
+	}
+	.userMailDescription{
+		padding-left:7px;
+	}
+	.userMailDescription .desc {
+		max-width: 270px;
+	}
+	.midNav{
+		margin-left: 14%;
+	}
+	.lastNav{
+		display:flex;
+		padding-left: 84%;
+	}
+	.senderName{
+		display:none;
+	}
+	.date{
+		font-size:9px;
+	}
+	.userMailIcons{
+		display:none;
 	}
 }
